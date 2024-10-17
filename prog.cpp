@@ -9,8 +9,8 @@ int main() {
     char initial;
     float grade;
     scanf("%s", &name);
-    scanf("%d\n", &age);
-    scanf("%c", &initial);
+    scanf("%d", &age);
+    scanf(" %c", &initial);
     scanf("%f", &grade);
     printf("Name is %s\n", name);
     printf("Age is %d\n", age);
